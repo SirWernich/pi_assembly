@@ -1,0 +1,17 @@
+.global _start
+_start:
+	MOV R1, #10
+	MOV R2, #9
+	MOV R3, #10
+	MOV R4, #11
+	CMP R1, R2
+	MOVHI R8, #1
+	MOVLO R8, #2
+	CMP R1, R3
+	MOVHI R9, #1
+	MOVLO R9, #2
+	CMP R1, R4
+	MOVHI R10, #1
+	MOVLO R10, #2
+	MOV R7, #1
+	SWI 0
