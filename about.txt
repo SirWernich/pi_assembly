@@ -1,1 +1,7 @@
 I'm learning raspberry pi assembly, and these are my little side projects.
+
+new changes to come:
+- follow proper convertions regarding parameters to functions (R0 - 3, then stack)
+- will think of more later (mostly this change is only to figure out what's going on in git)
+
+
